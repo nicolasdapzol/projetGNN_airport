@@ -1,7 +1,7 @@
 # TP M2 IA DL GNN 
 # Yann Amer Jules Caroile et Nicolas Dapzol 
 #
-# prédiction de liesn entre aéroports
+# prédiction de liens entre aéroports
 
 
 # résumé : 
@@ -14,6 +14,7 @@ Dans une deuxième parties des modèles GNN sont comparés avec différentes cou
 1. Préparer un environnement Python avec PyTorch, PyTorch Geometric, NetworkX, pandas, NumPy, scikit-learn, matplotlib et seaborn. Utiliser des versions compatibles entre PyTorch et PyTorch Geometric.
 2. Depuis `code/`, ouvrir et exécuter toutes les cellules de `0_import_data et description.ipynb`. Le notebook lit `../data/airportsAndCoordAndPop.graphml`, construit les caractéristiques et génère les jeux train, validation et test dans `data/`.
 3. Exécuter toutes les cellules de `1 construction_modeles.ipynb`. Le notebook entraîne les modèles puis enregistre les modèles et résultats dans `resultats/` et affiche les indicateurs ainsi queles graphiques dans le notebook
+4. Exécuter toutes les cellules de `1 Ablation study.ipynb`. 
 
 Les fichiers `.pt` de `data/` contiennent les jeux de données et splits déjà générés : les conserver permet de réutiliser le même découpage. 
 
