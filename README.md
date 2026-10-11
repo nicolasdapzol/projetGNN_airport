@@ -21,6 +21,7 @@ Les fichiers `.pt` de `data/` contiennent les jeux de données et splits déjà 
 Note 1 : utilisation IA : 
 COPILOT : correction de bugs 
 COPILOT : création de coordonnées 3D 
+CLAUDE : utilisation de github, Visualisation des résultats (fonction "tracer_loss", "afficher_matrice_confusion"), debug sur la fonction "lancer_experience"
 
 Note 2 : 
 Les notebooks de `code/backup/` sont des variantes ou essais antérieurs et ne font pas partie du parcours principal.
